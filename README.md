@@ -1,3 +1,2 @@
-# services payments-creditodebito 
+# Custom Inventory BE
 
-/services/payments/creditodebito
