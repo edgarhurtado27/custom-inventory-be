@@ -1,0 +1,16 @@
+[
+    {
+        "_id": "615e57a226b169d4495ba85f",
+        "typeId": "product",
+        "partNumber": "PROD061021PANT",
+        "markForDelete": false,
+        "lastUpdate": "2021-10-07T02:11:44.034Z",
+        "buyable": true,
+        "prodDesc": {
+            "name": "Pantalon uniforme",
+            "shortDescription": "Pantalon vestir",
+            "longDescription": "Pantalon vestir"
+        },
+        "extendedData": {}
+    }
+]

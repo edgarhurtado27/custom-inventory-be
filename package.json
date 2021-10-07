@@ -1,0 +1,54 @@
+{
+  "name": "custom-inventory-be",
+  "version": "0.1.0",
+  "description": "Custom Intentory API",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon",
+    "test": "NODE_ENV=test jest",
+    "lint": "eslint lib src test",
+    "lint:fix": "eslint --fix lib src test"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "intentory",
+    "node",
+    "mongo",
+    "api"
+  ],
+  "contributors": [
+    "Edgar Hurtado"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-joi-validation": "^5.0.0",
+    "express-pino-logger": "^6.0.0",
+    "joi": "^17.4.2",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.1.2",
+    "pino": "^6.13.3",
+    "stoppable": "^1.1.0"
+  },
+  "devDependencies": {
+    "acorn": "^8.5.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jest": "^24.5.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "jest": "^27.2.4",
+    "nodemon": "^2.0.13",
+    "pino-pretty": "^7.0.1",
+    "sonarqube-scanner": "^2.8.1",
+    "supertest": "^6.1.6",
+    "typescript": "^4.4.3"
+  }
+}

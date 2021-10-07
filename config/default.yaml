@@ -1,0 +1,27 @@
+---
+
+api:
+  identifier: custom-inventory-be
+  port: '8080'
+
+services:
+  mongodb:
+    endpoint:
+      url: ''
+      database: 'store'
+      scheme: 'mongodb'
+      hostname: localhost
+      port: '27017'
+      timeout: '5000'
+      options:
+        useUnifiedTopology: true
+    credentials:
+      username: 'mongoadmin'
+      password: 'secret'
+    products_collection: 'products'
+    items_collection: 'items'
+logger:
+  options:
+    level: info
+    prettyPrint: true
+    timestamp: true

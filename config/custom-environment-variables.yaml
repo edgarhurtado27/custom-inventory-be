@@ -1,0 +1,23 @@
+---
+
+api:
+  port: API_PORT
+
+services:
+  mongodb:
+    endpoint:
+      url: MONGODB_URL
+      database: MONGODB_DATABASE
+      scheme: MONGODB_SCHEME
+      hostname: MONGODB_HOST
+      port: MONGODB_PORT
+      timeout: MONGODB_TIMEOUT
+      options:
+        __name: MONGODB_OPTIONS
+        __format: json
+    credentials:
+      username: MONGODB_USERNAME
+      password: MONGODB_PASSWORD
+logger:
+  options:
+    level: LOG_LEVEL

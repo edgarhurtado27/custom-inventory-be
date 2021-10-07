@@ -1,0 +1,15 @@
+---
+
+services:
+  some:
+    endpoint:
+      context: '/context'
+      scheme: https
+      hostname: localhost
+      port: '8080'
+
+logger:
+  options:
+    level: info
+    prettyPrint: true
+    timestamp: false
