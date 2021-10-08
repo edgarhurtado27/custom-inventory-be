@@ -102,3 +102,5 @@ public
 .sonar
 .scannerwork
 .vscode
+
+.DS_Store

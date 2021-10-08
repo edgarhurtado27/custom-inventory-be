@@ -1,0 +1,13 @@
+{
+    "typeId": "product",
+    "partNumber": "PROD061021PANT",
+    "markForDelete": false,
+    "lastUpdate": "2021-10-07T02:11:44.034Z",
+    "buyable": true,
+    "prodDesc": {
+        "name": "Mock product",
+        "shortDescription": "Mock short desc",
+        "longDescription": "Mock long description"
+    },
+    "extendedData": {}
+}
