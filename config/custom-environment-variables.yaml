@@ -1,7 +1,7 @@
 ---
 
 api:
-  port: API_PORT
+  port: PORT
 
 services:
   mongodb:
