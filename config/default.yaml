@@ -22,6 +22,6 @@ services:
     items_collection: 'items'
 logger:
   options:
-    level: info
+    level: trace
     prettyPrint: true
     timestamp: true
