@@ -21,3 +21,4 @@ services:
 logger:
   options:
     level: LOG_LEVEL
+    prettyPrint: PRETTY_PRINT
