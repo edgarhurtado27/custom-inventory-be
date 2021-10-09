@@ -15,8 +15,8 @@ signals.forEach((signal) => {
 });
 
 const router = express.Router();
-router.get('/healthz', (req, res) => {
-  res.status(stopped === true ? 500 : 200).send();
+router.get('/', (req, res) => {
+  res.status(stopped ? 500 : 200).send('App online');
 });
 
 stack.push(router);
