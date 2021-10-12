@@ -2,6 +2,7 @@ const validator = require('express-joi-validation').createValidator({
   passError: true,
 });
 const Joi = require('joi');
+const dayjs = require('dayjs');
 const baseLogger = require('../../lib/logger');
 const MongoClient = require('../../lib/mongodb');
 const { PRODUCT_COLLECTION } = require('../../lib/constants');
@@ -11,7 +12,6 @@ const ValidationSchemas = {
     typeId: Joi.string().equal('product'),
     partNumber: Joi.string().alphanum().required(),
     markForDelete: Joi.boolean().required(),
-    lastUpdate: Joi.date().iso().required(),
     buyable: Joi.boolean().required(),
     prodDesc: Joi.object({
       name: Joi.string().required(),
@@ -29,6 +29,7 @@ const handler = async (req, res, next) => {
   const { body } = req;
 
   try {
+    body.lastUpdate = dayjs().format();
     const response = await MongoClient.insertOne(body, PRODUCT_COLLECTION);
     res.status(200).json(response);
   } catch (err) {

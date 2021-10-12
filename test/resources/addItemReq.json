@@ -1,0 +1,35 @@
+{
+    "typeId": "catEntry",
+    "partNumber": "ITEM111021ESC",
+    "partNumberParent": "PROD071021CAL",
+    "markForDelete": false,
+    "buyable": true,
+    "catEntDesc": {
+        "name": "Mock",
+        "shortDescription": "Mock Mock Mock",
+        "longDescription": "MockMockMockMockMockMockMockMockMockMock"
+    },
+    "catEntAttr":[
+        {
+            "name": "Mock",
+            "value": "Mock",
+            "description": "Mock"
+        }
+    ],
+    "catEntPrice": {
+        "wholesale": {
+            "sellPrice": "0",
+            "buyPrice": "0"
+        },
+        "retail": {
+            "sellPrice": "0",
+            "buyPrice": "0"
+        }
+    },
+    "qtyUnit": {
+        "total": "2",
+        "onStock": "2",
+        "onPromise": "0"
+    },
+    "extendedData": {}
+}
